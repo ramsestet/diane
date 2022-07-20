@@ -1,0 +1,70 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&family=Rubik:wght@400&display=swap');
+
+*:not(ul){
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Rubik', 'Open Sans', sans-serif;
+  font-size: var(--font-normal);
+}
+
+:root {
+
+  /* Colors */
+  --color-primary: blue;
+  --color-background: rgb(255, 255, 255);
+  --color-background-highlight: rgb(235, 235, 235);
+  --color-dark-theme: #0d1117;
+
+  --color-background-write-strong: rgb(19, 19, 19);
+  --color-background-write-soft: rgb(96, 96, 96);
+  --color-background-write-neutral: rgb(144, 144, 144);
+
+
+
+  /* Spaces */
+  --space-small-xs: 1px;
+  --space-small-s: 2px;
+  --space-medium-m: 4px;
+  --space-large-l: 8px;
+  --space-large-xl: 15px;
+  --space-large-2xl: 22px;
+  --space-large-3xl: 32px;
+
+  /* Fonts */
+  --font-tiny: 12px;
+  --font-small: 14px;
+  --font-normal: 16px;
+  --font-large: 20px;
+  --font-extra-large: 32px;
+  --font-extra-extra-large: 40px;
+}
+
+@media screen and (max-width: 900px) {
+
+  :root{
+
+    /* Spaces */
+    --space-small-xs: 1px;
+    --space-small-s: 2px;
+    --space-medium-m: 4px;
+    --space-large-l: 6px;
+    --space-large-xl: 10px;
+    --space-large-2xl: 12px;
+    --space-large-3xl: 20px;
+
+    /* Fonts */
+    --font-tiny: 8px;
+    --font-small: 13px;
+    --font-normal: 15px;
+    --font-large: 18px;
+    --font-extra-large: 28px;
+    --font-extra-extra-large: 32px;
+  }
+}
