@@ -32,7 +32,7 @@ const IntroWrapper = styled.div`
     object-fit: cover;
   }
   & img:nth-child(2){
-    height: 100px;
+    height: 90px;
     aspect-ratio: inherit;
     object-fit: cover;
     
@@ -43,7 +43,7 @@ const IntroWrapper = styled.div`
   }
 
   & img:nth-child(3){
-    height: 80px;
+    height: 70px;
     object-fit: cover;
 
     position: absolute;
@@ -52,7 +52,7 @@ const IntroWrapper = styled.div`
     transform: translate(-50%);
   } 
   & img:nth-child(4){
-    height: 80px;
+    height: 70px;
     object-fit: cover;
 
     position: absolute;
@@ -77,13 +77,13 @@ const IntroWrapper = styled.div`
   
   @media screen and (max-width: 900px){
     & img:nth-child(2) {
-      height: 80px;
+      height: 55px;
     }
     & img:nth-child(3) {
-      height: 75px;
+      height: 50px;
     } 
     & img:nth-child(4) {
-      height: 75px;
+      height: 50px;
     }
   }
 `

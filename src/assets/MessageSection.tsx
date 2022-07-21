@@ -2,20 +2,25 @@
 import React from "react";
 import styled from "styled-components";
 
-const EarthSection: React.FC = () => {
-    const bg = require("../assets/rotatingEarth.gif")
+
+type Input = {
+    background?: string
+    title: string
+    description: string[]
+    emojis: string[]
+}
+
+const MessageSection: React.FC<Input> = (input: Input) => {
     return(
         <EarthWrapper>
-            <img src={bg}/>
+            <img src={input.background}/>
             <Title>
                 <div>{">>"}</div>
-                Une nouvelle année
+                {input.title}
             </Title>
             <Description>
-                Nous n'en sommes souvent pas conscients, mais réalises-tu que tu as déjà parcouru une bonne partie de l'univers !.😌 Tu as fait 23 fois le tour du soleil ?
-                Le temps passe si vite !
-                <div>Te voilà à nouveau en train de faire un vingt-quatrième tour !</div>
-                <div>🚀🌏</div>
+                {input.description?.map(item => <div>{item}</div>)}
+                {input.emojis?.map(emoji => emoji)}
             </Description>
         </EarthWrapper>
     )
@@ -59,7 +64,7 @@ const Title = styled.div`
   transform: translate(-10%);
   
   @media screen and (max-width: 900px){
-    top: 120%;
+    top: 116%;
     left: 15%;
   }
 `
@@ -75,10 +80,10 @@ const Description = styled.div`
   transform: translate(-10%);
 
   @media screen and (max-width: 900px){
-    top: 143%;
+    top: 150%;
     left: 13%;
     width: 65vw;
   }
 `
 
-export default EarthSection
+export default MessageSection

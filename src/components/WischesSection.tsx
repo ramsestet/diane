@@ -64,7 +64,7 @@ const Description = styled.div`
   transform: translate(-10%);
 
   @media screen and (max-width: 900px){
-    top: calc(128% + 100vh);
+    top: calc(140% + 100vh);
     left: 13%;
     width: 43vw;
   }
