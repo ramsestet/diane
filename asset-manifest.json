@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/diane/static/css/main.10b01deb.css",
+    "main.js": "/diane/static/js/main.12d4b7b8.js",
+    "static/media/rotatingEarth.gif": "/diane/static/media/rotatingEarth.d05096cad5179b983af8.gif",
+    "static/media/section1.jpg": "/diane/static/media/section1.659078c26a4c07823ebb.jpg",
+    "static/media/fallingObjects.gif": "/diane/static/media/fallingObjects.39d30dbd02a02b4e9501.gif",
+    "static/media/bg1Section2.jpg": "/diane/static/media/bg1Section2.a034201b66a7e0e8fa35.jpg",
+    "index.html": "/diane/index.html",
+    "main.10b01deb.css.map": "/diane/static/css/main.10b01deb.css.map",
+    "main.12d4b7b8.js.map": "/diane/static/js/main.12d4b7b8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.10b01deb.css",
+    "static/js/main.12d4b7b8.js"
+  ]
+}
