@@ -82,7 +82,7 @@ const Description = styled.div`
   @media screen and (max-width: 900px){
     top: 150%;
     left: 13%;
-    width: 65vw;
+    width: 80vw;
   }
 `
 
